@@ -32,6 +32,7 @@
 .section-heading{
   max-width: 827px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .section-heading h2{
@@ -78,9 +79,11 @@ nav .menu{
 
   #banner{
      margin: 47px 38px 0 230px;
+     font-size: small;
      display: flex;
-     justify-content: space-between;
+     justify-content: space-between;   
      align-items: center ;
+   /* it was space between first */
   }
   #banner .banner-content{
     max-width: 585px;
@@ -107,7 +110,7 @@ nav .menu{
   }
 
   #banner .banner-image img{
-             max-width: 585px;
+             max-width: 420px;
              vertical-align: middle;
   }
   
@@ -128,7 +131,7 @@ nav .menu{
            justify-content: space-around;
   }
 
- .about-info .info-card p{
+ .about-info .info-card p {
           font-size: 20px;
           line-height: 30px;
           color: #757575;
@@ -138,4 +141,44 @@ nav .menu{
               font-size: 20px;
 }
  
-  
+#skills{
+  padding: 130px;
+}
+#skills .skills-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+#skills .skills-container .skill-box{
+  display: flex;
+  gap: 24px;
+}
+#skills .section-heading{
+  width: 71%;
+  max-width: 1140px;
+ margin: 0 auto;
+  /* justify-content: center; */
+  /* aikhane margin 0 auto korle upor nic theke kono margin nebe na kintu dui pas theke margin niye nebe */
+}
+
+.skill-box .skill-card{
+  padding: 30px;
+  /* border: 1px solid red; */
+  box-shadow: 0 6px 50px 0 #0000003d;
+  max-width: 267px;
+}
+
+.skill-card img{
+  max-width: 44px;
+  margin-bottom: 30px;
+}
+.skill-card h3{
+  font-size: 20px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.skill-card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575
+}
